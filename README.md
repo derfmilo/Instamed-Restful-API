@@ -112,7 +112,7 @@ Use three simple, common response codes indicating (1) success, (2) failure due 
 * Maintain APIs at least one version back.
 
 
-## Record limits
+## Record Limits Coming in v2
 
 * If no limit is specified, return results with a default limit.
 * To get records 51 through 75 do this:
@@ -137,13 +137,13 @@ Information about record limits and total available count should also be include
 
 ### API Resources
 
-  - [GET /instamed](#get-instamed)
-  - [GET /instamed/[id]](#get-instamedid)
+  - [GET /instamed?](#get-instamed)
+  - [GET /instamed?[id]](#get-instamedid)
  
 
 ### GET /instamed Coming in v2 
 
-Example: https://medical.jimnio.com/api/v1/instamed
+Example: https://medical.jimnio.com/api/v1/instamed?
 
 Response body:
 
@@ -162,7 +162,7 @@ Response body:
 
 ### GET /instamed/[username][password][ediRequest][return_url][apiKey][gateKeeper]
 
-Example: https://medical.jimnio.com/api/v1/instamed/[username][password][ediRequest][return_url][apiKey][gateKeeper]
+Example: https://medical.jimnio.com/api/v1/instamed?[username][password][ediRequest][return_url][apiKey][gateKeeper]
 
 Response body:
 
