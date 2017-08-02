@@ -1,5 +1,5 @@
 # Instamed-Restful-API
-Instamed RESTful API that handles CORS
+Instamed RESTful API that handles CORS. Fixes Issues that can arise from Android and IOS apps as well as locally ran software.
 
 * [Guidelines](#guidelines)
 * [Pragmatic REST](#pragmatic-rest)
@@ -11,15 +11,6 @@ Instamed RESTful API that handles CORS
 * [Record limits](#record-limits)
 * [Request & Response Examples](#request--response-examples)
 
-## Guidelines
-
-This document provides guidelines and examples for Med Easy Billing Web APIs, encouraging consistency, maintainability, and best practices across applications. White House APIs aim to balance a truly RESTful API interface with a positive developer experience (DX).
-
-This document borrows heavily from:
-* [Designing HTTP Interfaces and RESTful Web Services](http://www.youtube.com/watch?v=zEyg0TnieLg)
-* [API Facade Pattern](http://apigee.com/about/resources/ebooks/api-fa%C3%A7ade-pattern), by Brian Mulloy, Apigee
-* [Web API Design](http://pages.apigee.com/web-api-design-ebook.html), by Brian Mulloy, Apigee
-* [Fielding's Dissertation on REST](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 
 ## Pragmatic REST
 
